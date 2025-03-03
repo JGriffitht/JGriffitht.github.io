@@ -81,3 +81,9 @@ div.fire{
     flex-direction: row;
 float:left
 }
+
+input[type=text] {
+    width: 200px;
+    border-radius: 100px #893843; 
+
+}
