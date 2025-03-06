@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <i id="Logo1" data-lucide="flame"></i>   
-    <i id="Logo2" data-lucide="bell"> </i>
+    <img id="thefirelogo" src="Screenshot_2025-03-06_141014-removebg-preview.png" alt="">
     <h1 id="Aboutme"> About me</h1>
     A little. 
     <nav class="navbar">
@@ -21,11 +20,22 @@
         </ul>
     </nav>
     <main>
-
-        <h3>Place Holder</h3>
-        <p>place holder</p>
+        <h3>Hi, My Name is Jaden Griffith.</h3>
+        <p>What's Yours?</p>
     </main>
+    <form id="form"
+    action="https://form-to-email.steam-center.workers.dev/"
+ method="post">
+ <input hidden name="send-to" value="jgriffith@brooklynsteamcenter.org">
+        <label>Name?</label>
+        <br>
+        <input type="text" required name="whatsyourname">
+        <br>
+        <br>
+        <input type="submit">
+    
 
+    </form>
   
     <script src="https://unpkg.com/lucide@latest"></script>
 
